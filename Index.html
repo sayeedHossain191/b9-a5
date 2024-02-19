@@ -14,9 +14,6 @@
 
 <body class="font-raleway mx-16">
 
-
-
-
     <!-- navbar -->
     <section>
         <div class="navbar bg-base-100">
@@ -63,8 +60,8 @@
                         </span></h1>
                     <p class="mb-5">Yes, you can run unit tests and view the results directly within the app. The
                         integrated testing features allow for a streamlined</p>
-                    <button class="btn bg-[#1DD100] border-[#1DD100] px-6 py-4">Buy
-                        Tickets</button>
+                    <button id="buy-ticket" class="btn bg-[#1DD100] border-[#1DD100] px-6 py-4">Buy
+                        Tickets <a href="paribahan"></a></button>
                 </div>
             </div>
         </div>
@@ -125,13 +122,13 @@
 
                     <div class="flex gap-x-4">
                         <div class="mt-5">
-                            <h1 class="text-3xl font-bold">15% OFF</h1>
+                            <h1 class="text-3xl font-bold">20% OFF</h1>
                             <h3 class="font-semibold">on your next purchase</h3>
                             <p>use by January 2024</p>
                         </div>
                         <img class="h-32" src="images/cupon-devider.png" alt="">
                         <div class="mt-8">
-                            <h1 class="font-bold text-3xl">NEW15</h1>
+                            <h1 class="font-bold text-3xl">Couple 20</h1>
                             <p class="font-semibold">Coupon Code</p>
                         </div>
                     </div>
@@ -141,211 +138,238 @@
         <button class="btn btn-outline text-green-500">See All Offers</button>
     </section>
 
-    <!-- booking -->
-    <section class="text-center mt-16">
-        <div>
-            <h1 class="text-4xl font-bold">
-                P.H Paribahan
-            </h1>
-            <p class="font-semibold mt-4">Yes, you can run unit tests and view the results directly within the app. The
-                integrated <br>
-                testing features allow
-                for a streamlined .</p>
-        </div>
-    </section>
+    <!-- P.H Paribahan -->
+    <section id="paribahan">
 
-    <!-- GreenLine Paribahan-->
-    <section class="grid grid-cols-3 gap-8">
-
-        <div>
-            <div class="flex ">
-
-                <div class="flex gap-4 place-items-center">
-                    <div>
-                        <img class="mt-2" src="images/bus-logo.png" alt="">
-                    </div>
-                    <div>
-                        <h1 class="text-2xl font-bold">
-                            Greenline Paribahan
-                        </h1>
-                        <p class="font-semibold">Coach-009-WEB ! AC_Business</p>
-                    </div>
-                </div>
-
-                <!-- Seats Left -->
-                <div class="flex gap-2 place-items-center bg-[#1DD10026] px-4 rounded">
-                    <img class="h-8" src="images/seat-green.png" alt="">
-                    <h1>40 Seats left</h1>
-                </div>
-            </div>
-
-            <!-- Departure time -->
-            <div class="card bg-[#F7F8F8] text-primary-content ">
-                <div class="card-body">
-                    <div class="flex justify-between">
-                        <h6>Route</h6>
-                        <h6>Dhaka - Sylhet</h6>
-                    </div>
-                    <hr class="border-dashed bg-black">
-                    <div class="flex justify-between">
-                        <h6>Departure Time</h6>
-                        <h6>9:00 PM</h6>
-                    </div>
-                    <hr class="border-dashed bg-black">
-
-                    <div class="card-actions justify-between">
-                        <button class="btn no-animation bg-[#0307120D]">Boarding Point - Laxmipur</button>
-                        <button class="btn no-animation bg-[#0307120D]">Dropping Point - Bogura</button>
-                        <button class="btn no-animation bg-[#0307120D]">Est. Time - 11 Hour</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Divider -->
-        <div>
-            <img src="images/info-devider.png" alt="" srcset="">
-        </div>
-        <!-- 500 tk per seat -->
-        <div>
-            <img src="images/fare.png" alt="" srcset="">
-            <h2>550 Taka <br>
-                Per Seat</h2>
-        </div>
-
-    </section>
-
-    <!-- Ticketing Interface -->
-    <section class="grid grid-cols-3">
-        <!--Available Seat column -->
-        <div>
-            <h3>Select Your Seat</h3>
-            <hr class="border-dashed bg-[#03071233]">
-            <!-- Available and Selected -->
-            <div class="flex justify-between">
-                <!-- Available seat -->
-                <div>
-                    <img src="images/seat-gray.png" alt="" srcset="">
-                    <h4>Available</h4>
-                </div>
-                <!-- Selected seat -->
-                <div>
-                    <img src="images/seat-green-filled.png" alt="" srcset="">
-                    <h4>Selected</h4>
-                </div>
-            </div>
-            <hr class="border-dashed bg-[#03071233]">
-
-            <!-- Seat-Boxes -->
-            <img src="images/tabler-icon-steering-wheel.png" alt="" srcset="">
-        </div>
-        <!-- divider -->
-        <div>
-            <img src="images/info-devider.png" alt="" srcset="">
-        </div>
-        <!-- Payment CheckOut column -->
-        <div>
-            <h3>Select Your Seat</h3>
-            <hr class="border-dashed bg-[#03071233]">
-
-            <!-- Seat-Class-Price-Card -->
-            <div class="card bg-[#F7F8F8]">
-                <div class="card-body">
-                    <!-- Table start -->
-                    <div class="overflow-x-auto">
-                        <table class="table">
-                            <!-- head -->
-                            <thead>
-                                <tr>
-                                    <th>Seat
-                                        <div class="badge bg-[#1DD100]">2</div>
-                                    </th>
-
-                                    <th>Class</th>
-                                    <th>Price</th>
-                                </tr>
-                            </thead>
-
-                            <tbody>
-                                <!-- row 1 -->
-                                <tr>
-                                    <td>C2</td>
-                                    <td>Economoy</td>
-                                    <td>550</td>
-                                </tr>
-                                <!-- row 2 -->
-                                <tr>
-                                    <td>C2</td>
-                                    <td>Economoy</td>
-                                    <td>550</td>
-                                </tr>
-
-                            </tbody>
-
-                        </table>
-                    </div>
-                    <!-- Table end -->
-                    <hr>
-
-                    <!-- Total Price -->
-                    <div class="grid grid-cols-2">
-                        <h3>Total Price</h3>
-                        <h3>BDT <span>1100</span></h3>
-                    </div>
-
-                    <!-- Coupon input -->
-                    <input type="text" placeholder="Have any copupon?" class="input input-bordered w-full max-w-xs" />
-
-                    <div class="card-actions justify-end">
-                        <button class="btn bg-[#1DD100]">Apply</button>
-                    </div>
-                    <!-- Grand total -->
-                    <div class="grid grid-cols-2">
-                        <h3>Grand Total</h3>
-                        <h3>BDT <span>1100</span></h3>
-                    </div>
-                </div>
-            </div>
-            <!-- Input field -->
+        <!-- booking -->
+        <section class="text-center mt-16">
             <div>
-                <!-- Name -->
-                <label class="form-control ">
-                    <div class="label">
-                        <span class="label-text">Passenger Name*</span>
+                <h1 class="text-4xl font-bold">
+                    P.H Paribahan
+                </h1>
+                <p class="font-semibold mt-4">Yes, you can run unit tests and view the results directly within the app.
+                    The
+                    integrated <br>
+                    testing features allow
+                    for a streamlined .</p>
+            </div>
+        </section>
+
+        <!-- GreenLine Paribahan-->
+        <section class="grid grid-cols-3 gap-8">
+
+            <div>
+                <div class="flex ">
+
+                    <div class="flex gap-4 place-items-center">
+                        <div>
+                            <img class="mt-2" src="images/bus-logo.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-2xl font-bold">
+                                Greenline Paribahan
+                            </h1>
+                            <p class="font-semibold">Coach-009-WEB ! AC_Business</p>
+                        </div>
                     </div>
 
-                    <input type="text" placeholder="Enter your name" class="input input-bordered " />
-                </label>
-                <!-- Number -->
-                <label class="form-control ">
-                    <div class="label">
-                        <span class="label-text">Phone Number*</span>
+                    <!-- Seats Left -->
+                    <div class="flex gap-2 place-items-center bg-[#1DD10026] px-4 rounded">
+                        <img class="h-8" src="images/seat-green.png" alt="">
+                        <h1 id="seat-left">40 Seats left</h1>
                     </div>
+                </div>
 
-                    <input type="text" placeholder="Enter your phone number" class="input input-bordered " />
-                </label>
+                <!-- Departure time -->
+                <div class="card bg-[#F7F8F8] text-primary-content ">
+                    <div class="card-body">
+                        <div class="flex justify-between">
+                            <h6>Route</h6>
+                            <h6>Dhaka - Sylhet</h6>
+                        </div>
+                        <hr class="border-dashed bg-black">
+                        <div class="flex justify-between">
+                            <h6>Departure Time</h6>
+                            <h6>9:00 PM</h6>
+                        </div>
+                        <hr class="border-dashed bg-black">
 
-                <!-- Email -->
-                <label class="form-control ">
-                    <div class="label">
-                        <span class="label-text">Email ID</span>
+                        <div class="card-actions justify-between">
+                            <button class="btn no-animation bg-[#0307120D]">Boarding Point - Laxmipur</button>
+                            <button class="btn no-animation bg-[#0307120D]">Dropping Point - Bogura</button>
+                            <button class="btn no-animation bg-[#0307120D]">Est. Time - 11 Hour</button>
+                        </div>
                     </div>
-
-                    <input type="text" placeholder="Enter your email id" class="input input-bordered " />
-                </label>
-
-                <!-- button -->
-                <button class="btn bg-[#1DD100] w-full">Success</button>
-                <br>
-
-                <!-- Links -->
-                <div class="gap-11">
-                    <a class="link link-success">Terms and Conditions</a>
-                    <a class="link link-success">Cancellation Policy</a>
                 </div>
             </div>
-        </div>
+
+            <!-- Divider -->
+            <div>
+                <img src="images/info-devider.png" alt="" srcset="">
+            </div>
+            <!-- 500 tk per seat -->
+            <div>
+                <img src="images/fare.png" alt="" srcset="">
+                <h2>550 Taka <br>
+                    Per Seat</h2>
+            </div>
+
+        </section>
+
+        <!-- Ticketing Interface -->
+        <section class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
+            <!--Available Seat column -->
+            <div>
+                <h3>Select Your Seat</h3>
+                <hr class="border-dashed bg-[#03071233]">
+                <!-- Available and Selected -->
+                <div class="flex justify-between">
+                    <!-- Available seat -->
+                    <div>
+                        <img src="images/seat-gray.png" alt="" srcset="">
+                        <h4>Available</h4>
+                    </div>
+                    <!-- Selected seat -->
+                    <div>
+                        <img src="images/seat-green-filled.png" alt="" srcset="">
+                        <h4>Selected</h4>
+                    </div>
+                </div>
+                <hr class="border-dashed bg-[#03071233]">
+
+                <!-- Seat-Boxes -->
+                <div class="flex justify-end">
+                    <button class="btn no-animation bg-[#0307121A] mt-6">
+                        <img src="images/tabler-icon-steering-wheel.png" alt="" srcset="">
+                    </button>
+                </div>
+
+                <div id="seat-status" class="grid grid-cols-5 gap-8 mt-6">
+                    <button>A</button>
+                    <button id="A1" class="btn bg-[#F7F8F8]">A1</button>
+                    <button id="A2" class="btn bg-[#F7F8F8]">A2</button>
+                    <button id="A3" class="btn bg-[#F7F8F8]">A3</button>
+                    <button id="A4" class="btn bg-[#F7F8F8]">A4</button>
+                    <button>B</button>
+                    <button id="B1" class="btn bg-[#F7F8F8]">B1</button>
+                    <button id="B2" class="btn bg-[#F7F8F8]">B2</button>
+                    <button id="B3" class="btn bg-[#F7F8F8]">B3</button>
+                    <button id="B4" class="btn bg-[#F7F8F8]">B4</button>
+                </div>
+
+            </div>
+            <!-- divider -->
+            <div>
+                <img class="" src="images/info-devider.png" alt="" srcset="">
+            </div>
+            <!-- Payment CheckOut column -->
+            <div>
+                <h3>Select Your Seat</h3>
+                <hr class="border-dashed bg-[#03071233]">
+
+                <!-- Seat-Class-Price-Card -->
+                <div class="card bg-[#F7F8F8]">
+                    <div class="card-body">
+                        <!-- Table start -->
+                        <div class="overflow-x-auto">
+                            <table class="table">
+                                <!-- head -->
+                                <thead>
+                                    <tr>
+                                        <th>Seat
+                                            <div id="seat-count" class="badge bg-[#1DD100]">0</div>
+                                        </th>
+
+                                        <th>Class</th>
+                                        <th>Price</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <!-- row 1 -->
+                                    <!-- <tr>
+                                        <td>C2</td>
+                                        <td>Economoy</td>
+                                        <td>550</td>
+                                    </tr> -->
+                                    <!-- row 2 -->
+                                    <!-- <tr>
+                                        <td>C2</td>
+                                        <td>Economoy</td>
+                                        <td>550</td>
+                                    </tr> -->
+
+                                </tbody>
+
+                            </table>
+                        </div>
+                        <!-- Table end -->
+                        <hr>
+
+                        <!-- Total Price -->
+                        <div class="grid grid-cols-2">
+                            <h3>Total Price</h3>
+                            <h3>BDT <span id="total-price">0</span></h3>
+                        </div>
+
+                        <!-- Coupon input -->
+                        <input id="coupon-input" type="text" placeholder="Have any copupon?"
+                            class="input input-bordered w-full max-w-xs" />
+
+                        <div class="card-actions justify-end">
+                            <button id="btn-apply" class="btn bg-[#1DD100]">Apply</button>
+                        </div>
+                        <!-- Grand total -->
+                        <div class="grid grid-cols-2">
+                            <h3>Grand Total</h3>
+                            <h3>BDT <span id="grand-total">0</span></h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- Input field -->
+                <div>
+                    <!-- Name -->
+                    <label class="form-control ">
+                        <div class="label">
+                            <span class="label-text">Passenger Name*</span>
+                        </div>
+
+                        <input type="text" placeholder="Enter your name" class="input input-bordered " />
+                    </label>
+                    <!-- Number -->
+                    <label class="form-control ">
+                        <div class="label">
+                            <span class="label-text">Phone Number*</span>
+                        </div>
+
+                        <input type="text" placeholder="Enter your phone number" class="input input-bordered " />
+                    </label>
+
+                    <!-- Email -->
+                    <label class="form-control ">
+                        <div class="label">
+                            <span class="label-text">Email ID</span>
+                        </div>
+
+                        <input type="text" placeholder="Enter your email id" class="input input-bordered " />
+                    </label>
+
+                    <!-- button -->
+                    <button class="btn bg-[#1DD100] w-full">Success</button>
+                    <br>
+
+                    <!-- Links -->
+                    <div class="gap-11">
+                        <a class="link link-success">Terms and Conditions</a>
+                        <a class="link link-success">Cancellation Policy</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </section>
+
+    <script src="ticket.js"></script>
 </body>
 
 </html>
