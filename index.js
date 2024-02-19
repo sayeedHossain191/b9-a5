@@ -29,8 +29,12 @@ function seatDisplay(playerList) {
     totalGrand.innerText = total;
 
 
-
 }
+
+
+
+
+
 function apply() {
     const dis = document.getElementById('dis');
     const grand = document.getElementById('grand');
